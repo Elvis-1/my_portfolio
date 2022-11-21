@@ -23,14 +23,7 @@ body{
     margin: 0 auto;
     padding: 0 30px;
 } */
-/* nav{ */
-   
-    /* display: flex; */
-    /* background: #0D0D0D; */
-    /* justify-content: space-between;
-    align-items: center; */
-    /* margin-top: 10px; */
-/* } */
+
 /* .logo{
     display: flex; 
      
@@ -67,14 +60,14 @@ ul a{
     margin-top: 30px; 
     margin-bottom: 70px;
     text-align: left;
-    /* background-image: url('images/fb.png'); */
+    background-image: url('images/fb.png');
     background-size: contain;
     background-position:top 10px right 10px ;
     background-repeat: no-repeat;
     min-height: 400px;
     
 }
-/* .intro h1{
+.intro h1{
     margin-bottom: 20px;
     font-size: 40px;
 }
@@ -86,7 +79,7 @@ ul a{
 }
 h1 .name{
     color: #fff;
-} */
+}
 span{
     text-align: center;
     font-weight: bold;
@@ -173,12 +166,13 @@ footer{
 .contact-form{
     max-width: 1100px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding: 0 30px;
     display: flex;
-    
+    text-align: center;
     justify-content: space-between;
    
+  
 }
 
 .contact-text{
@@ -187,7 +181,6 @@ footer{
 }
 
 .contact-text h1{
-
     font-size: 40px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -227,9 +220,25 @@ button{
     margin: 0 auto;
     padding: 0 30px;
 }
+.nav-bottom{
+   
+    display: flex; 
+    /* background: #0D0D0D; */
+     justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; 
+  
+}
+
+.nav-bottom ul a{
+   margin-left: 10px;
+}
 
 .bottom-nav nav{
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
+}
+.break-line{
+    margin: 10px 0;
 }
 
 /* project.html */
@@ -238,14 +247,11 @@ button{
     margin-top: 50px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     nav{
-        /* margin: 50px auto; */
-        /* display: flex; */
+
         flex-direction: column;
-        /* justify-content: space-between;
-        align-items: center;
-        margin-top: 10px; */
+
     }
     .logo{
        flex-direction: column;
@@ -253,7 +259,9 @@ button{
          
     }
     .contact-form{
+        height: 800px;
         flex-direction: column;
+        justify-content: space-evenly;
     }
   }
   
