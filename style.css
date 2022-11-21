@@ -67,7 +67,7 @@ ul a{
     margin-top: 30px; 
     margin-bottom: 70px;
     text-align: left;
-    background-image: url('images/fb.png');
+    /* background-image: url('images/fb.png'); */
     background-size: contain;
     background-position:top 10px right 10px ;
     background-repeat: no-repeat;
